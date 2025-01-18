@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: brown;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size:7.5rem;
+    min-width: 180px;
+    margin: 0,10px;
+    border-radius: 250px;
+    background-color: darkblue;
+    cursor: pointer;
+    
+
+}
+.choices button:hover{
+    background-color: aqua;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+
+
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 0,10px;
+}
+.greenTest{
+    color: rgb(8, 48, 8);
+
+}
+.redTest{
+    color: darkgoldenrod;
+
+}
+
